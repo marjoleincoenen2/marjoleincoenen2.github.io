@@ -71,9 +71,9 @@ $(document).ready(function(){
             icon.addClass('ion-md-menu');
             icon.removeClass('ion-md-close');
         }
+    });
     
-       
-    })
+    /*responsive table */
     
     
     

@@ -3,6 +3,7 @@
     .hero-text-box {
         width: 100%;
         padding: 0 2%;
+        margin-left: 10px;
     }
     
     .row { padding: 0 2% }
@@ -11,7 +12,14 @@
 /* Small tablets to big tablets: from 770 to 1023px */
 @media only screen and (max-width: 1023px){
     body { font-size: 18px; }
-    section {padding: 60px 0;}
+    section { padding: 30px 0; }
+    
+    h2 {
+    font-size: 150%;
+    margin-bottom: 20px;
+    }
+    
+    h2:after { margin-top: 10px; }
     
     .long-copy {
         width: 80%;
@@ -23,13 +31,17 @@
         margin-right: 5px;
     }
     .country-box {font-size: 90%;}
-     
+    .country-photo {
+    width: 90px;
+    height: 60px;
+    margin-bottom: 5px;
+    }
 }
 
 /* Small phones to small tablets: from 481 to 769px */
 @media only screen and (max-width: 769px){
     body { font-size: 16px; }
-    section {padding: 30px 0;}
+    section {padding: 20px 0;}
     
     .row,
     .here-text-box{ padding: 0 4% }
@@ -43,8 +55,8 @@
     .mobile-nav-icon {display: inline-block;}
     .main-nav {
         float: left;
-        margin-top: 35px;
-        margin-left: 25px;
+        margin-top: 30px;
+        margin-left: 20px;
     }
     
     .main-nav li { display: block;}
@@ -73,29 +85,37 @@
         border-bottom: none;}
         
     h1 { font-size: 180%;}
-    h2 { font-size: 160%;}
+    h2 { font-size: 150%;}
     
     .long-copy {
         width: 100%;
         margin-left: 0%;
     }
-    
-    .country-photo {
-    width: 100px;
-    height: 65px;
-    margin-bottom: 10px;
-    }
-    .calender-frame {height: 500px;}
+        
+    .country-box div { padding: 10px 0 10px 20px;}
+    .country-box ul { margin: 5px 0; }
+        
+    .calendar-frame { height: 500px; }
 
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
     
-    section { padding: 25px 0;}
+    section { padding: 15px 0;}
+    
+    h2 {
+    margin-bottom: 15px;
+    font-size: 130%;
+    }
     
     table {
     margin-left: 2px;
     margin-right: 2px;    
-}
+    }
+    .calendar-frame { 
+        margin-top: 10px;
+        height: 400px; }
+    
+    
 }
