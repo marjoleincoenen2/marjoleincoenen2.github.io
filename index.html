@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+    <head>
+        <!-- CHECK   <meta charset="utf-8">   -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Alle schoolvakanties en feestdagen samen in één kalender. De ideale manier om te zien of het druk kan worden in jouw vakantieperiode. Is het hoogseizoen of nog niet?">
+        
+        <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <title>Vakantieschema</title>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <ul class="main-nav js--main-nav">
+                        <li><a href="#about">Over vakantieschema</a></li>
+                        <li><a href="#countries">Landen &amp; regio&#39;s</a></li> 
+                        <li><a href="#calendar">Kalender</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Schema per land</button>
+                                <div class="dropdown-content">
+                                    <a href="#table-NL">Nederland</a>
+                                    <a href="#table-BE">België</a>
+                                    <a href="#table-FR">Frankrijk</a>
+                                    <a href="#table-GE">Duitsland</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="icon ion-md-menu"></i></a>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>Schoolvakanties &amp; feestdagen<br> Alles in één kalender</h1>
+                <a class="btn btn-full js--scroll-to-kalender" href="#">Ga naar kalender</a>
+                <a class="btn btn-ghost js--scroll-to-table" href="#">Schema</a>
+            </div>
+        
+        </header>
+        
+        <section class="section-about js--section-about"id="about">
+            <div class="row">
+                <h2>Wanneer is het hoogseizoen?</h2>
+                <p class="long-copy">
+                    Wil je een vakantie boeken of een weekendje weg? Zoek je vakantiedatum op <a href="#vakantiekalender" class="link-reverse">in onze kalender</a> en zie in één oogopslag of je de enige bent die vrij heeft of dat er meer landen en regio's vrij zijn. <br>Daarnaast vind je verderop ook <a href="#table" class="link-reverse">een overzicht van alle schoolvakanties per land.</a>
+                </p>
+            </div>
+            
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-school  icon-big"></i>
+                    <h3>Schoolvakanties</h3>
+                    <p>
+                    De kalender bevat de schoolvakanties zoals deze zijn voorgesteld vanuit de overheden van  verschillende Europese landen. Individuele scholen kunnen hiervan afwijken.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-star  icon-big"></i>
+                    <h3>Feestdagen</h3>
+                    <p>
+                    Er zijn feestdagen die we overal in Europa vieren, maar elk land heeft ook zijn eigen publieke feestdagen. In de kalender vind je per land de publieke feestdagen terug.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-globe icon-big"></i>
+                    <h3>Landen</h3>
+                    <p>
+                    In de kalender zijn de schoolvakantie en feestdagen opgenomen van enkele populaire Europese vakantiebestemmingen voor Nederlanders. 
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="icon ion-md-pie icon-big"></i>
+                    <h3>Regio's</h3>
+                    <p>
+                    De meeste Europese landen hanteren verschillende vakantieregio's zodat niet iedereen tegelijk vakantie heeft. Een overzicht van deze regio's per land kun je terug vinden onder <a href="#countries" class="link-reverse">landen en regio&#39;s</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-countries" id="countries">
+            <div class="row">
+                <h2>Landen &amp; regio&#39;s</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4">
+                    <div class="country-box">
+                        <div>
+                            <h3><a href="#table-NL" class=link-reverse>Nederland</a></h3>
+                            <img src="resources/img/NL%20vlag.png" alt="Nederlandse vlag" class="country-photo">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="icon ion-md-pie icon-small"></i>Noord</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Midden</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Zuid</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <i class="icon ion-md-link icon-small"></i><a href="https://www.rijksoverheid.nl/onderwerpen/schoolvakanties/regios-schoolvakantie" class="link-reverse" target="_blank">Indeling regio&#39;s</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="country-box">
+                        <div>
+                            <h3><a href="#table-BE" class=link-reverse>België</a></h3>
+                            <img src="resources/img/BE%20vlag.png" alt="Belgische vlag" class="country-photo">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="icon ion-md-pie icon-small"></i>Allemaal tegelijk vakantie</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="country-box">
+                        <div>
+                            <h3><a href="#table-FR" class=link-reverse>Frankrijk</a></h3>
+                            <img src="resources/img/FR%20vlag.png" alt="Franse vlag" class="country-photo">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="icon ion-md-pie icon-small"></i>Zone A</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Zone B</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Zone C</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <i class="icon ion-md-link icon-small"></i><a href="https://en.wikipedia.org/wiki/French_school_holidays" class="link-reverse" target="_blank">Indeling regio&#39;s</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-4">
+                    <div class="country-box">
+                        <div>
+                            <h3><a href="#table-GE" class=link-reverse>Duitsland</a></h3>
+                            <img src="resources/img/GE%20vlag.png" alt="Duitse vlag" class="country-photo">
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="icon ion-md-pie icon-small"></i>Baden-Württemberg</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Bayern</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Berlin</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Brandenburg</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Bremen</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Hamburg</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Hessen</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Mecklenburg-Vorpommen</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Niedersachsen</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Nordrhein-Westfalen</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Rheinland-Pfalz</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Saarland</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Sachsen</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Sachsen-Anhalt</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Schleswig-Holstein</li>
+                                <li><i class="icon ion-md-pie icon-small"></i>Thüringen</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <i class="icon ion-md-link icon-small"></i><a href="https://nl.wikipedia.org/wiki/Deelstaten_van_Duitsland" class="link-reverse" target="_blank">Indeling deelstaten</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-calendar js--section-calendar" id="calendar">
+            <div class="row">
+                <h2>Kalender</h2>
+                <p class="long-copy">
+                    Wil je een vakantie boeken of een weekendje weg? In onderstaande kalender kan je in één oogopslag zien welke andere landen en regio's er ook in dezelfde periode op vakantie zijn. <br>Wil je graag zien wanneer jouw regio vakantie heeft, kijk dan verder bij <a href="#table-NL" class="link-reverse">schema per land.</a>
+                </p>
+            </div>
+            
+            <div class="row">
+                <iframe src="https://calendar.google.com/calendar/b/1/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;height=600&amp;wkst=7&amp;bgcolor=%23FFFFFF&amp;src=schoolvakantie.kalender%40gmail.com&amp;color=%23182C57&amp;src=60im4105mjh2cgca0jvf93fm5g%40group.calendar.google.com&amp;color=%232952A3&amp;src=3431u4fm2o6b6dp1at1qbu4aqk%40group.calendar.google.com&amp;color=%2329527A&amp;src=nl.dutch%23holiday%40group.v.calendar.google.com&amp;color=%23333333&amp;src=pats8eof82c26mnar6jfjjmk10%40group.calendar.google.com&amp;color=%231B887A&amp;ctz=Europe%2FAmsterdam" 
+                        class="calendar-frame"></iframe>
+            </div>  
+        </section>
+                
+        
+        
+        <section class="section-table-NL js--section-table-NL" id="table-NL">
+            <div class="row">
+                <h2>Schoolvakanties &#45; Nederland</h2>
+            </div>
+            <div class="row">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Regio Noord</th>
+                            <th>Regio Midden</th>
+                            <th>Regio Zuid</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="empty-cell"></th>
+                            <th colspan="3" class="schooljaar">2018/2019</th>
+                        </tr>
+                        <tr>
+                            <td>Voorjaarsvakantie</td>
+                            <td>16 t/m 24 februari 2019</td>
+                            <td>23 februari t/m 3 maart 2019</td>
+                            <td>2 t/m 10 maart 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Meivakantie&#42;</td>
+                            <td colspan=3>27 april t/m 5 mei 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td>13 juli t/m 25 augustus 2019</td>
+                            <td>20 juli t/m 1 september 2019</td>
+                            <td>6 juli t/m 18 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <th class="empty-cell"></th>
+                            <th colspan="3" class="schooljaar">2019/2020</th>
+                        </tr>
+                        <tr>
+                            <td>Herfstvakantie</td>
+                            <td colspan="2">19 t/m 27 oktober 2019</td>
+                            <td>12 t/m 20 oktober 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Kerstvakantie</td>
+                            <td colspan="3">21 december 2019 t/m 5 januari 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Voorjaarsvakantie</td>
+                            <td>15 t/m 23 februari 2020</td>
+                            <td colspan="2">22 februari t/m 1 maart 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Meivakantie&#42;</td>
+                            <td colspan="3">25 april t/m 3 mei 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td>4 juli t/m 16 augustus 2020</td>
+                            <td>18 juli t/m 30 augustus 2020</td>
+                            <td>11 juli t/m 23 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <th class="empty-cell"></th>
+                            <th colspan="3" class="schooljaar">2020/2021</th>
+                        </tr>
+                        <tr>
+                            <td>Herfstvakantie</td>
+                            <td>10 t/m 18 oktober 2020</td>
+                            <td colspan="2">17 t/m 25 oktober 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Kerstvakantie</td>
+                            <td colspan="3">19 december 2020 t/m 3 januari 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Voorjaarsvakantie</td>
+                            <td colspan="2">20 t/m 28 februari 2021</td>
+                            <td>13 t/m 21 februari 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Meivakantie&#42;</td>
+                            <td colspan ="3">25 april t/m 3 mei 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td>4 juli t/m 16 augustus 2021</td>
+                            <td>18 juli t/m 30 augustus 2021</td>
+                            <td>11 juli t/m 23 augustus 2021</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="remark">&#42; Scholen kunnen de meivakantie met een week uitbreiden. OCW geeft hiervoor adviesdata. Scholen hoeven zich hier niet aan te houden. Kijk in de schoolgids of op de website van de school voor de juiste data.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        <section class="section-table-BE" id="table-BE">
+            <div class="row">
+                <h2>Schoolvakanties &#45; België</h2>
+            </div>
+            <div class="row">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>België</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="empty-cell"></th>
+                            <th class="schooljaar">2018/2019</th>
+                        </tr>
+                        <tr>
+                            <td>Krokusvakantie</td>
+                            <td>14 t/m 10 maart 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Paasvakantie</td>
+                            <td>8 t/m 22 april 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td>1 juli t/m 31 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <th class="empty-cell"></th>
+                            <th class="schooljaar">2019/2020</th>
+                        </tr>
+                        <tr>
+                            <td>Herfstvakantie</td>
+                            <td>28 oktober t/m 3 november 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Kerstvakantie</td>
+                            <td>23 december 2019 t/m 5 januari 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Krokusvakantie</td>
+                            <td>24 februari t/m 1 maart 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Paasvakantie</td>
+                            <td>6 t/m 19 april 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td>1 juli t/m 31 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <th class="empty-cell"></th>
+                            <th class="schooljaar">2020/2021</th>
+                        </tr>
+                        <tr>
+                            <td>Herfstvakantie</td>
+                            <td>2 t/m 8 november 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Kerstvakantie</td>
+                            <td>21 december 2020 t/m 3 januari 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Krokusvakantie</td>
+                            <td>15 februari t/m 21 februari 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Paasvakantie</td>
+                            <td>5 t/m 18 april 2021</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td>1 juli t/m 31 augustus 2021</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section-table-FR" id="table-FR">
+            <div class="row">
+                <h2>Schoolvakanties &#45; Frankrijk</h2>
+            </div>
+            <div class="row">
+               <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Zone A</th>
+                            <th>Zone B</th>
+                            <th>Zone C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="empty-cell"></th>
+                            <th colspan="3" class="schooljaar">2018/2019</th>
+                        </tr>
+                        <tr>
+                            <td>Wintervakantie</td>
+                            <td>16 februari t/m 3 maart 2019</td>
+                            <td>9 t/m 24 februari 2019</td>
+                            <td>23 februari t/m 10 maart 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Voorjaarsvakantie</td>
+                            <td>13 t/m 28 april 2019</td>
+                            <td>6 t/m 22 april 2019</td>
+                            <td>20 april t/m 5 mei 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td colspan="3">6 juli t/m 1 september 2019</td>
+                        </tr>
+                         <tr>
+                            <th class="empty-cell"></th>
+                            <th colspan="3" class="schooljaar">2019/2020</th>
+                        </tr>
+                        <tr>
+                            <td>Herfstvakantie</td>
+                            <td colspan="3">19 oktober t/m 3 november 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Kerstvakantie</td>
+                            <td colspan="3">21 december 2019 t/m 5 januari 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Wintervakantie</td>
+                            <td>22 februari t/m 8 maart 2020</td>
+                            <td>15 februari t/m 1 maart 2020</td>
+                            <td>8 t/m 23 februari 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Voorjaarsvakantie</td>
+                            <td>18 april t/m 3 mei 2020</td>
+                            <td>11 t/m 26 april 2020</td>
+                            <td>4 t/m 19 april 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Zomervakantie</td>
+                            <td colspan="3">4 juli t/m 30 augustus 2020</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        <section class="section-table-GE" id="table-GE">
+            <div class="row">
+                <h2>Schoolvakanties &#45; Duitsland</h2>
+            </div>
+            <div class="row">
+               <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Herfstvakantie</th>
+                            <th>Kerstvakantie</th>
+                            <th>Wintervakantie</th>
+                            <th>Paasvakantie</th>
+                            <th>Pinkstervakantie</th>
+                            <th>Zomervakantie</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="empty-cell"></th>
+                            <th colspan="6" class="schooljaar">2018/2019</th>
+                        </tr>
+                        <tr>
+                            <td>Baden-Württemberg</td>
+                            <td>29 oktober t/m 2 november 2018</td>
+                            <td>24 december 2018 t/m 5 januari 2019 </td>
+                            <td>-</td>
+                            <td>15 t/m 27 april 2019</td>
+                            <td>11 t/m 21 juni 2019</td>
+                            <td>29 juli t/m 10 september 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Bayern</td>
+                            <td>29 oktober t/m 2 november 2018</td>
+                            <td>22 december 2018 t/m 5 januari 2019 </td>
+                            <td>-</td>
+                            <td>4 t/m 8 maart &amp; 15 t/m 27 april 2019</td>
+                            <td>11 t/m 21 juni 2019</td>
+                            <td>29 juli t/m 9 september 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Berlin</td>
+                            <td>22 oktober t/m 2 november 2018</td>
+                            <td>22 december 2018 t/m 5 januari 2019 </td>
+                            <td>4 t/m 9 februari 2019</td>
+                            <td>15 t/m 26 april 2019</td>
+                            <td>31 mei &amp; 11 juni 2019</td>
+                            <td>20 juni t/m 2 augustus 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Brandenburg</td>
+                            <td>22 oktober t/m 2 november 2018</td>
+                            <td>22 december 2018 t/m 5 januari 2019 </td>
+                            <td>4 t/m 9 februari 2019</td>
+                            <td>15 t/m 26 april 2019</td>
+                            <td>-</td>
+                            <td>20 juni t/m 3 augustus 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Bremen</td>
+                            <td>1 t/m 13 oktober 2018</td>
+                            <td>24 december 2018 t/m 4 januari 2019 </td>
+                            <td>31 januari t/m 1 februari 2019</td>
+                            <td>6 t/m 23 april 2019</td>
+                            <td>31 mei &amp; 11 juni 2019</td>
+                            <td>4 juli t/m 14 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <td>Hamburg</td>
+                            <td>1 t/m 12 oktober 2018</td>
+                            <td>20 december 2018 t/m 4 januari 2019 </td>
+                            <td>1 februari 2019</td>
+                            <td>4 t/m 15 maart 2019</td>
+                            <td>13 t/m 17 &amp; 31 mei 2019</td>
+                            <td>27 juni t/m 7 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <td>Hessen</td>
+                            <td>1 t/m 13 oktober 2018</td>
+                            <td>24 december 2018 t/m 12 januari 2019 </td>
+                            <td>-</td>
+                            <td>15 t/m 27 april 2019</td>
+                            <td>-</td>
+                            <td>1 juli t/m 9 augustus 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Mecklenburg-Vorpommern</td>
+                            <td>8 t/m 13 oktober &amp; 1 t/m 2 november 2018</td>
+                            <td>24 december 2018 t/m 5 januari 2019 </td>
+                            <td>4 t/m 15 februari 2019</td>
+                            <td>15 t/m 24 april 2019</td>
+                            <td>31 mei &amp; 7 t/m 11 juni 2019</td>
+                            <td>1 juli t/m 10 augustus 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Niedersachsen</td>
+                            <td>1 t/m 12 oktober 2018</td>
+                            <td>24 december 2018 t/m 4 januari 2019 </td>
+                            <td>31 januari t/m 1 februari 2019</td>
+                            <td>8 t/m 23 april 2019</td>
+                            <td>31 mei &amp; 11 juni 2019</td>
+                            <td>4 juli t/m 14 augustus 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Nordrhein-Westfalen</td>
+                            <td>15 t/m 27 oktober 2018</td>
+                            <td>21 december 2018 t/m 4 januari 2019 </td>
+                            <td>-</td>
+                            <td>15 t/m 27 april 2019</td>
+                            <td>11 juni 2019</td>
+                            <td>15 juli t/m 27 augustus 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Rheinland-Pfalz</td>
+                            <td>1 t/m 12 oktober 2018</td>
+                            <td>20 december 2018 t/m 4 januari 2019 </td>
+                            <td>25 februari t/m 1 maart 2019</td>
+                            <td>23 t/m 30 april 2019</td>
+                            <td>-</td>
+                            <td>1 juli t/m 9 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <td>Saarland</td>
+                            <td>1 t/m 12 oktober 2018</td>
+                            <td>20 december 2018 t/m 4 januari 2019 </td>
+                            <td>25 februari t/m 5 maart 2019</td>
+                            <td>17 t/m 26 april 2019</td>
+                            <td>-</td>
+                            <td>1 juli t/m 9 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <td>Sachsen</td>
+                            <td>8 t/m 20 oktober 2018</td>
+                            <td>20 december 2018 t/m 4 januari 2019 </td>
+                            <td>18 februari t/m 2 maart 2019</td>
+                            <td>19 t/m 26 april 2019</td>
+                            <td>31 mei 2019</td>
+                            <td>8 juli t/m 16 augustus 2019</td>
+                        </tr>
+                        <tr>
+                            <td>Sachsen-Anhalt</td>
+                            <td>1 t/m 12 oktober 2018</td>
+                            <td>19 december 2018 t/m 4 januari 2019 </td>
+                            <td>11 t/m 15 februari 2019</td>
+                            <td>18 t/m 30 april 2019</td>
+                            <td>31 mei t/m 1 juni 2019</td>
+                            <td>4 juli t/m 14 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <td>Schleswig-Holstein</td>
+                            <td>1 t/m 19 oktober 2018</td>
+                            <td>21 december 2018 t/m 4 januari 2019 </td>
+                            <td>-</td>
+                            <td>4 t/m 18 april 2019</td>
+                            <td>31 mei 2019</td>
+                            <td>1 juli t/m 10 augustus 2019</td>
+                        </tr>
+                         <tr>
+                            <td>Thüringen</td>
+                            <td>1 t/m 13 oktober 2018</td>
+                            <td>21 december 2018 t/m 4 januari 2019 </td>
+                            <td>11 t/m 15 februari 2019</td>
+                            <td>15 t/m 27 april 2019</td>
+                            <td>31 mei 2019</td>
+                            <td>8 juli t/m 17 augustus 2019</td>
+                        </tr>
+                   </tbody>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Herfstvakantie</th>
+                            <th>Kerstvakantie</th>
+                            <th>Wintervakantie</th>
+                            <th>Paasvakantie</th>
+                            <th>Pinkstervakantie</th>
+                            <th>Zomervakantie</th>
+                        </tr>
+                    </thead>
+                   <tbody>
+                         <tr>
+                            <th class="empty-cell"></th>
+                            <th colspan="6" class="schooljaar">2019/2020</th>
+                        </tr>
+                        <tr>
+                            <td>Baden-Württemberg</td>
+                            <td>28 t/m 31 oktober 2019</td>
+                            <td>23 december 2019 t/m 4 januari 2020</td>
+                            <td>-</td>
+                            <td>6 t/m 18 april 2020</td>
+                            <td>2 t/m 13 juni 2020</td>
+                            <td>30 juli t/m 12 september 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Bayern</td>
+                            <td>28 t/m 31 oktober 2019</td>
+                            <td>23 december 2019 t/m 4 januari 2020</td>
+                            <td>-</td>
+                            <td>24 t/m 28 februari &amp; 6 t/m 18 april 2020</td>
+                            <td>2 t/m 13 juni 2020</td>
+                            <td>27 juli t/m 7 september 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Berlin</td>
+                            <td>4 &amp; 7 t/m 19 oktober 2019</td>
+                            <td>23 december 2019 t/m 4 januari 2020</td>
+                            <td>3 t/m 8 februari 2020</td>
+                            <td>6 t/m 17 april 2020</td>
+                            <td>22 mei 2020</td>
+                            <td>25 juni t/m 7 augustus 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Brandenburg</td>
+                            <td>4 t/m 18 oktober 2019</td>
+                            <td>21 december 2019 t/m 6 januari 2020</td>
+                            <td>3 t/m 8 februari 2020</td>
+                            <td>6 t/m 17 april 2020</td>
+                            <td>-</td>
+                            <td>25 juni t/m 8 augustus 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Bremen</td>
+                            <td>4 t/m 18 oktober 2019</td>
+                            <td>21 december 2019 t/m 6 januari 2020 </td>
+                            <td>3 t/m 4 februari 2020</td>
+                            <td>28 maart t/m 14 april 2020</td>
+                            <td>22 mei &amp; 2 juni 2020</td>
+                            <td>16 juli t/m 26 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Hamburg</td>
+                            <td>4 t/m 18 oktober 2019</td>
+                            <td>20 december 2019 t/m 3 januari 2020</td>
+                            <td>31 januari 2020</td>
+                            <td>2 t/m 13 maart 2020</td>
+                            <td>18 t/m 22 mei 2020</td>
+                            <td>25 juni t/m 5 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Hessen</td>
+                            <td>30 september t/m 12 oktober 2019</td>
+                            <td>23 december 2019 t/m 11 januari 2020</td>
+                            <td>-</td>
+                            <td>6 t/m 18 april 2020</td>
+                            <td>-</td>
+                            <td>6 juli t/m 14 augustus 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Mecklenburg-Vorpommern</td>
+                            <td>4 t/m 12 oktober 2019</td>
+                            <td>23 december 2019 t/m 4 januari 2020</td>
+                            <td>10 t/m 21 februari 2020</td>
+                            <td>6 t/m 15 april 2020</td>
+                            <td>22 mei &amp; 29 mei t/m 2 juni 2020</td>
+                            <td>22 juni t/m 1 augustus 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Niedersachsen</td>
+                            <td>4 t/m 18 oktober 2019</td>
+                            <td>23 december 2019 t/m 6 januari 2020</td>
+                            <td>3 t/m 4 februari 2020</td>
+                            <td>30 maart t/m 14 april 2020</td>
+                            <td>22 mei &amp; 2 juni 2020</td>
+                            <td>16 juli t/m 26 augustus 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Nordrhein-Westfalen</td>
+                            <td>14 t/m 26 oktober 2019</td>
+                            <td>23 december 2019 t/m 6 januari 2020</td>
+                            <td>-</td>
+                            <td>6 t/m 18 april 2020</td>
+                            <td>2 juni 2020</td>
+                            <td>29 juni t/m 11 augustus 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Rheinland-Pfalz</td>
+                            <td>30 september t/m 11 oktober 2019</td>
+                            <td>23 december 2019 t/m 6 januari 2020</td>
+                            <td>17 t/m 21 februari 2020</td>
+                            <td>9 t/m 17 april 2020</td>
+                            <td>-</td>
+                            <td>6 juli t/m 14 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Saarland</td>
+                            <td>7 t/m 18 oktober 2019</td>
+                            <td>23 december 2019 t/m 3 januari 2020</td>
+                            <td>17 t/m 25 februari 2020</td>
+                            <td>14 t/m 24 april 2020</td>
+                            <td>-</td>
+                            <td>6 juli t/m 14 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Sachsen</td>
+                            <td>14 t/m 25 oktober 2019</td>
+                            <td>21 december 2019 t/m 3 januari 2020</td>
+                            <td>10 t/m 22 februari 2020</td>
+                            <td>10 t/m 18 april 2020</td>
+                            <td>22 mei 2020</td>
+                            <td>20 juli t/m 28 augustus 2020</td>
+                        </tr>
+                        <tr>
+                            <td>Sachsen-Anhalt</td>
+                            <td>4 t/m 11 oktober 2019</td>
+                            <td>23 december 2019 t/m 4 januari 2020</td>
+                            <td>10 t/m 14 februari 2020</td>
+                            <td>6 t/m 11 april 2020</td>
+                            <td>18 t/m 30 mei 2020</td>
+                            <td>16 juli t/m 26 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Schleswig-Holstein</td>
+                            <td>4 t/m 18 oktober 2019</td>
+                            <td>23 december 2019 t/m 6 januari 2020</td>
+                            <td>-</td>
+                            <td>30 maart t/m 17 april 2020</td>
+                            <td>22 mei 2020</td>
+                            <td>29 juni t/m 8 augustus 2020</td>
+                        </tr>
+                         <tr>
+                            <td>Thüringen</td>
+                            <td>7 t/m 19 oktober 2019</td>
+                            <td>21 december 2019 t/m 3 januari 2020</td>
+                            <td>10 t/m 14 februari 2020</td>
+                            <td>6 t/m 18 april 2020</td>
+                            <td>22 mei 2020</td>
+                            <td>20 juli t/m 29 augustus 2020</td>
+                        </tr>
+                       <tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="/privacy.html">Privacy verklaring</a></li>
+                        <li><a href="/disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <p>
+                    Copyright &copy; 2019 door Van Geldrop Holding BV. <br>Alle rechten voorbehouden.
+                    </p>
+                </div>
+
+        </footer>
+        
+    <!-- needed to use jquery --> <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- scripts to responsive site in older browsers --> 
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <!-- Needed for the sticky navigation --> <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+        
+    </body>
+    
+</html>
+
+<!--
+
+
+
+
+
+
+
+
