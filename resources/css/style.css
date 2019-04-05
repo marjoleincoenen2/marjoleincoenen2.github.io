@@ -414,6 +414,8 @@ header {
 /* -------------------------------------- */
 /* HOLIDAY TABLE */
 
+.stacktable.large-only { display: table; }
+.stacktable.small-only { display: none; }
 
 table {
     margin-left: auto;
@@ -466,6 +468,8 @@ th.empty-cell{
 
 .section-table-GE td { padding: 2px;}
 .section-table-GE th { padding: 7px;}
+
+
 
 /* stackable table */
 
