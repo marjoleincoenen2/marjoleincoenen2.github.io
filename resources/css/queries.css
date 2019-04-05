@@ -126,6 +126,6 @@
         margin-top: 10px;
         height: 400px; }
     
-        .stacktable.large-only { display: none; }
-        .stacktable.small-only { display: table; }
+    .stacktable.large-only { display: none; }
+    .stacktable.small-only { display: table; }
 }
