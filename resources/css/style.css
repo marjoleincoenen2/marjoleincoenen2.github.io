@@ -456,6 +456,10 @@ th.empty-cell{
     font-size: 90%;
 }
 
+#simple-example-table_NL {
+    margin: 0 10px;
+}
+
 .section-table-NL,
 .section-table-FR {
     background-color: #f4f4f4;
@@ -468,10 +472,6 @@ th.empty-cell{
 
 .section-table-GE td { padding: 2px;}
 .section-table-GE th { padding: 7px;}
-
-
-
-/* stackable table */
 
 
 

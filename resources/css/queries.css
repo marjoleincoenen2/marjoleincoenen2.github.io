@@ -10,14 +10,9 @@
 
 }
 
-/* Escpecially for german table: from 910 to 1023px */
-@media only screen and (max-width: 1023px){
-    .stacktable.large-only { display: none; }
-    .stacktable.small-only { display: table; }
-}
 
-/* Small tablets to big tablets: from 770 to 910px */
-@media only screen and (max-width: 910px){
+/* Small tablets to big tablets: from 770 to 1023px */
+@media only screen and (max-width: 1023px){
     body { font-size: 18px; }
     section { padding: 30px 0; }
     
@@ -43,6 +38,9 @@
     height: 60px;
     margin-bottom: 5px;
     }
+
+    .stacktable.large-only { display: none; }
+    .stacktable.small-only { display: table; }
 
 }
 
