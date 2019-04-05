@@ -74,8 +74,9 @@ $(document).ready(function(){
     });
     
     /*responsive table */
-    $('#simple-example-table').stacktable();
-
+    $('#simple-example-table_NL').stacktable();
+    $('#simple-example-table_FR').stacktable();
+    $('#simple-example-table_GE').stacktable();
     /*calendar*/
     
     
