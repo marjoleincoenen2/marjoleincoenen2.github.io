@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         
-        <title>Vakantieschema - alle schoolvakanties in één overzicht</title>
+        <title>Alle schoolvakanties in één kalender</title>
         <meta name="description" content="Alle schoolvakanties en feestdagen samen in één kalender.
         De ideale manier om te zien of het al hoogseizoen is in jouw vakantieperiode.">
         
@@ -212,109 +212,119 @@
                         class="calendar-frame"></iframe>
             </div>  
         </section>
-
-        <section>                            
-
-        </section>
-      
-        
+       
         <section class="section-table-NL js--section-table-NL" id="table-NL">
             <div class="row">
                 <h2>Schoolvakanties &#45; Nederland</h2>
             </div>
-            <div class="row" style="overflow-x:auto;">
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>Regio Noord</th>
-                            <th>Regio Midden</th>
-                            <th>Regio Zuid</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th class="empty-cell"></th>
-                            <th colspan="3" class="schooljaar">2018/2019</th>
-                        </tr>
-                        <tr>
-                            <td>Voorjaarsvakantie</td>
-                            <td>16 t/m 24 februari 2019</td>
-                            <td>23 februari t/m 3 maart 2019</td>
-                            <td>2 t/m 10 maart 2019</td>
-                        </tr>
-                        <tr>
-                            <td>Meivakantie&#42;</td>
-                            <td colspan=3>27 april t/m 5 mei 2019</td>
-                        </tr>
-                        <tr>
-                            <td>Zomervakantie</td>
-                            <td>13 juli t/m 25 augustus 2019</td>
-                            <td>20 juli t/m 1 september 2019</td>
-                            <td>6 juli t/m 18 augustus 2019</td>
-                        </tr>
-                         <tr>
-                            <th class="empty-cell"></th>
-                            <th colspan="3" class="schooljaar">2019/2020</th>
-                        </tr>
-                        <tr>
-                            <td>Herfstvakantie</td>
-                            <td colspan="2">19 t/m 27 oktober 2019</td>
-                            <td>12 t/m 20 oktober 2019</td>
-                        </tr>
-                        <tr>
-                            <td>Kerstvakantie</td>
-                            <td colspan="3">21 december 2019 t/m 5 januari 2020</td>
-                        </tr>
-                         <tr>
-                            <td>Voorjaarsvakantie</td>
-                            <td>15 t/m 23 februari 2020</td>
-                            <td colspan="2">22 februari t/m 1 maart 2020</td>
-                        </tr>
-                        <tr>
-                            <td>Meivakantie&#42;</td>
-                            <td colspan="3">25 april t/m 3 mei 2020</td>
-                        </tr>
-                        <tr>
-                            <td>Zomervakantie</td>
-                            <td>4 juli t/m 16 augustus 2020</td>
-                            <td>18 juli t/m 30 augustus 2020</td>
-                            <td>11 juli t/m 23 augustus 2020</td>
-                        </tr>
-                         <tr>
-                            <th class="empty-cell"></th>
-                            <th colspan="3" class="schooljaar">2020/2021</th>
-                        </tr>
-                        <tr>
-                            <td>Herfstvakantie</td>
-                            <td>10 t/m 18 oktober 2020</td>
-                            <td colspan="2">17 t/m 25 oktober 2020</td>
-                        </tr>
-                        <tr>
-                            <td>Kerstvakantie</td>
-                            <td colspan="3">19 december 2020 t/m 3 januari 2021</td>
-                        </tr>
-                        <tr>
-                            <td>Voorjaarsvakantie</td>
-                            <td colspan="2">20 t/m 28 februari 2021</td>
-                            <td>13 t/m 21 februari 2021</td>
-                        </tr>
-                        <tr>
-                            <td>Meivakantie&#42;</td>
-                            <td colspan ="3">25 april t/m 3 mei 2021</td>
-                        </tr>
-                        <tr>
-                            <td>Zomervakantie</td>
-                            <td>4 juli t/m 16 augustus 2021</td>
-                            <td>18 juli t/m 30 augustus 2021</td>
-                            <td>11 juli t/m 23 augustus 2021</td>
-                        </tr>
-                        <tr>
-                            <td colspan="4" class="remark">&#42; Scholen kunnen de meivakantie met een week uitbreiden. OCW geeft hiervoor adviesdata. Scholen hoeven zich hier niet aan te houden. Kijk in de schoolgids of op de website van de school voor de juiste data.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <table id="simple-example-table" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <th width="25%"></th>
+                            <th width="25%">Regio Noord</th>
+                            <th width="25%">Regio Midden</th>
+                            <th width="25%">Regio Zuid</th>
+                          </tr>
+                          <tr>
+                            <th colspan="4" class="sub">2018/2019</th>
+                          </tr>
+                          <tr>
+                              <td>Voorjaarsvakantie</td>
+                              <td>16 t/m 24 februari 2019</td>
+                              <td>23 februari t/m 3 maart 2019</td>
+                              <td>2 t/m 10 maart 2019</td>
+                          </tr>
+                          <tr>
+                              <td>Meivakantie&#42;</td>
+                              <td>27 april t/m 5 mei 2019</td>
+                              <td>27 april t/m 5 mei 2019</td>
+                              <td>27 april t/m 5 mei 2019</td>
+                          </tr>
+                          <tr>
+                              <td>Zomervakantie</td>
+                              <td>13 juli t/m 25 augustus 2019</td>
+                              <td>20 juli t/m 1 september 2019</td>
+                              <td>6 juli t/m 18 augustus 2019</td>
+                          </tr>
+                          <tr>
+                              <td>Zomervakantie</td>
+                              <td>13 juli t/m 25 augustus 2019</td>
+                              <td>20 juli t/m 1 september 2019</td>
+                              <td>6 juli t/m 18 augustus 2019</td>
+                          </tr>
+                           <tr>
+                              <th class="empty-cell"></th>
+                              <th colspan="3" class="schooljaar">2019/2020</th>
+                          </tr>
+                          <tr>
+                              <td>Herfstvakantie</td>
+                              <td>19 t/m 27 oktober 2019</td>
+                              <td>19 t/m 27 oktober 2019</td>
+                              <td>12 t/m 20 oktober 2019</td>
+                          </tr>
+                          <tr>
+                              <td>Kerstvakantie</td>
+                              <td>21 december 2019 t/m 5 januari 2020</td>
+                              <td>21 december 2019 t/m 5 januari 2020</td>
+                              <td>21 december 2019 t/m 5 januari 2020</td>
+                          </tr>
+                           <tr>
+                              <td>Voorjaarsvakantie</td>
+                              <td>15 t/m 23 februari 2020</td>
+                              <td>22 februari t/m 1 maart 2020</td>
+                              <td>22 februari t/m 1 maart 2020</td>
+                          </tr>
+                          <tr>
+                              <td>Meivakantie&#42;</td>
+                              <td>25 april t/m 3 mei 2020</td>
+                              <td>25 april t/m 3 mei 2020</td>
+                              <td>25 april t/m 3 mei 2020</td>
+                          </tr>
+                          <tr>
+                              <td>Zomervakantie</td>
+                              <td>4 juli t/m 16 augustus 2020</td>
+                              <td>18 juli t/m 30 augustus 2020</td>
+                              <td>11 juli t/m 23 augustus 2020</td>
+                          </tr>
+                           <tr>
+                              <th class="empty-cell"></th>
+                              <th colspan="3" class="schooljaar">2020/2021</th>
+                          </tr>
+                          <tr>
+                              <td>Herfstvakantie</td>
+                              <td>10 t/m 18 oktober 2020</td>
+                              <td>17 t/m 25 oktober 2020</td>
+                              <td>17 t/m 25 oktober 2020</td>
+                          </tr>
+                          <tr>
+                              <td>Kerstvakantie</td>
+                              <td>19 december 2020 t/m 3 januari 2021</td>
+                              <td>19 december 2020 t/m 3 januari 2021</td>
+                              <td>19 december 2020 t/m 3 januari 2021</td>
+                          </tr>
+                          <tr>
+                              <td>Voorjaarsvakantie</td>
+                              <td>20 t/m 28 februari 2021</td>
+                              <td>20 t/m 28 februari 2021</td>
+                              <td>13 t/m 21 februari 2021</td>
+                          </tr>
+                          <tr>
+                              <td>Meivakantie&#42;</td>
+                              <td>25 april t/m 3 mei 2021</td>
+                              <td>25 april t/m 3 mei 2021</td>
+                              <td>25 april t/m 3 mei 2021</td>
+                          </tr>
+                          <tr>
+                              <td>Zomervakantie</td>
+                              <td>4 juli t/m 16 augustus 2021</td>
+                              <td>18 juli t/m 30 augustus 2021</td>
+                              <td>11 juli t/m 23 augustus 2021</td>
+                          </tr>
+                          <tr>
+                              <td colspan="4" class="remark">&#42; Scholen kunnen de meivakantie met een week uitbreiden. OCW geeft hiervoor adviesdata. Scholen hoeven zich hier niet aan te houden. Kijk in de schoolgids of op de website van de school voor de juiste data.</td>
+                          </tr>
+                        </tbody>
+                      </table>
         </section>
         
         <section class="section-table-BE" id="table-BE">
@@ -822,10 +832,11 @@
     <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
     <!-- Needed for the sticky navigation --> <script src="vendors/js/jquery.waypoints.min.js"></script>
     <!-- for calendar--> 
-    <!-- for responsive table--> <script src="vendors/js/jquery-1.7.min.js"></script>
-    <script src="resources/js/script.js"></script>
+    <!-- for responsive table--> 
+    <script>window.jQuery || document.write('<script src="vendors/js/jquery-1.7.min.js"><\/script>')</script> </script>
+    <script src="vendors/js/stacktable.js"></script>
     
-
+    <script src="resources/js/script.js"></script>
     </body>
     
 </html>

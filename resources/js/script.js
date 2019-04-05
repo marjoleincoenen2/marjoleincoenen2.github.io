@@ -74,7 +74,8 @@ $(document).ready(function(){
     });
     
     /*responsive table */
-    
+    $('#simple-example-table').stacktable();
+
     /*calendar*/
     
     
