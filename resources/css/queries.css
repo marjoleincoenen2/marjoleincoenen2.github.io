@@ -7,6 +7,9 @@
     }
     
     .row { padding: 0 2% }
+
+    .stacktable.large-only { display: table; }
+    .stacktable.small-only { display: none; }
 }
 
 /* Small tablets to big tablets: from 770 to 1023px */
@@ -36,6 +39,9 @@
     height: 60px;
     margin-bottom: 5px;
     }
+
+    .stacktable.large-only { display: table; }
+    .stacktable.small-only { display: none; }
 }
 
 /* Small phones to small tablets: from 481 to 769px */
@@ -97,6 +103,9 @@
         
     .calendar-frame { height: 500px; }
 
+    .stacktable.large-only { display: none; }
+    .stacktable.small-only { display: table; }
+
 }
 
 /* Small phones: from 0 to 480px */
@@ -117,5 +126,6 @@
         margin-top: 10px;
         height: 400px; }
     
-    
+        .stacktable.large-only { display: none; }
+        .stacktable.small-only { display: table; }
 }
