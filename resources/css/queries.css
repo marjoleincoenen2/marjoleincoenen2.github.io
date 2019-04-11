@@ -42,6 +42,9 @@
     .stacktable.large-only { display: none; }
     .stacktable.small-only { display: table; }
 
+    .text-disclaimer { font-size: 90%;}
+
+    .footer-nav { font-size: 100%;}
 }
 
 /* Small phones to small tablets: from 481 to 769px */
@@ -103,7 +106,8 @@
         
     .calendar-frame { height: 500px; }
 
-
+    .footer-nav { font-size: 120%;}
+    .copyright { font-size: 120%;}
 }
 
 /* Small phones: from 0 to 480px */
