@@ -113,7 +113,7 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px){
     
-    section { padding: 15px 0;}
+    section { padding: 10px 0;}
     
     h2 {
     margin-bottom: 15px;
@@ -121,8 +121,8 @@
     }
     
     table {
-        margin-left: 2px;
-        margin-right: 2px;    
+        margin-left: 0;
+        margin-right: 0;    
     }
     .calendar-frame { 
         margin-top: 10px;
