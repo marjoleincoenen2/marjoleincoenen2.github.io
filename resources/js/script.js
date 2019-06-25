@@ -77,6 +77,7 @@ $(document).ready(function(){
     $('#simple-example-table_NL').stacktable();
     $('#simple-example-table_FR').stacktable();
     $('#simple-example-table_GE').stacktable();
+    
     /*calendar*/
     
     
