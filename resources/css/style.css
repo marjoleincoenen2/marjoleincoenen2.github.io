@@ -469,7 +469,8 @@ th.empty-cell{
 
 .remark {
     font-style: italic;
-    border: 1px solid rgba(255, 255, 255, 0);
+    font-size: 90%;
+    padding: 10px;
 }
 
 .section-table-GE td { padding: 2px;}
